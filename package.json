@@ -1,0 +1,19 @@
+{
+  "name": "backend-todo-list",
+  "version": "1.0.0",
+  "description": "backend-todo-list",
+  "main": "src/index.js",
+  "author": "mateus ferreira",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
